@@ -1,0 +1,38 @@
+<mat-toolbar class="header">
+    <mat-toolbar-row>
+        <span>BJ-fit</span>
+        <section id="section">
+            <button mat-raised-button class="btnMenu" routerLink="/">Início</button>
+            <button mat-raised-button class="btnMenu" routerLink="/planos">Planos</button>
+            <button mat-raised-button class="btnMenu" routerLink="/atletas">Atletas</button>
+            <button mat-raised-button class="btnMenu" routerLink="/personal">Personal</button>
+            <button mat-raised-button class="btnMenu" routerLink="/imc">IMC</button>
+        </section>
+        <button mat-icon-button [matMenuTriggerFor]="menu"  class="menuMobil">
+            <mat-icon>dehaze</mat-icon>
+        </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item routerLink="/">
+                <mat-icon>turn_right</mat-icon>
+                <span>Início</span>
+            </button>
+            <button mat-menu-item routerLink="/planos">
+                <mat-icon>turn_right</mat-icon>
+                <span>Planos</span>
+            </button>
+            <button mat-menu-item routerLink="/atletas">
+                <mat-icon>turn_right</mat-icon>
+                <span>Atletas</span>
+            </button>
+            <button mat-menu-item routerLink="/personal">
+                <mat-icon>turn_right</mat-icon>
+                <span>Personal</span>
+            </button>
+            <button mat-menu-item routerLink="/imc">
+                <mat-icon>turn_right</mat-icon>
+                <span>IMC</span>
+            </button>
+          </mat-menu>
+          
+      </mat-toolbar-row>
+</mat-toolbar>

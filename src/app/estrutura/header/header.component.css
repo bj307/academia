@@ -1,0 +1,39 @@
+.header {
+    background-color: brown;
+}
+
+section {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.btnMenu {
+    background-color: transparent;
+    color: aquamarine;
+    border-radius: 0px;
+}
+
+.btnMenu:hover {
+    opacity: 0.9;
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 5px;
+}
+
+.menuMobil {
+    display: none;
+}
+
+@media (max-width:1080px) {
+    section {
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-top: 240px;
+        margin-right: -3px;
+    }
+    .menuMobil {
+        display: block;
+    }
+    
+}

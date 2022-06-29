@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: auto;
+    width: 100%;
+}
+body { 
+    margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background: rgb(15,84,98);
+    background: radial-gradient(circle, rgba(15,84,98,1) 0%, rgba(15,137,162,0.53125) 0%, rgba(5,94,112,1) 100%);
+}
+
+.cdk-overlay-pane {
+    margin-top: 9px;
+    margin-right: -5px;
+}
+
+.mat-menu-content {
+    background-color: brown;
+}
+
+::-webkit-scrollbar              {
+    width: 8px;
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar-thumb        {
+    width: 1px;
+    background-color: #ADD8E6;
+}
+
+

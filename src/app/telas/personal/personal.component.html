@@ -1,0 +1,31 @@
+<div class="body">
+    <h1><strong>NOSSA EQUIPE</strong></h1>
+    <h2>ESTAMOS AQUI PRA TE AJUDAR A ENCONTRAR A SUA MELHOR VERSÃO</h2>
+
+    <div class="imagens">
+        <section id="secCariani"><h1 id="titleC">Renato Cariani</h1><img class="img1 renato" src="assets/img/Cariani.png" alt="Personal Renato Cariani" (click)="showCari()"><br><mat-icon (click)="showCari()">expand_circle_down</mat-icon></section>
+        <section id="secMuzy"><h1 id="titleM">Paulo Muzy</h1><img class="img2" src="assets/img/Muzy.png" alt="Médico Paulo Muzzy" (click)="showMuzy()"><br><mat-icon (click)="showMuzy()">expand_circle_down</mat-icon></section>
+    </div>
+
+    <mat-card class="example-card" [ngStyle]="{display: displayC}">
+        <mat-card-title>Cariani</mat-card-title>
+        <mat-card-content>
+          <p>SOBRE RENATO CARIANI</p>
+        </mat-card-content>
+        <mat-card-actions>
+        </mat-card-actions>
+        <mat-card-footer>
+        </mat-card-footer>
+      </mat-card>
+
+      <mat-card class="example-card" [ngStyle]="{display: displayM}">
+        <mat-card-title>Muzy</mat-card-title>
+        <mat-card-content>
+          <p>SOBRE PAULO MUZY</p>
+        </mat-card-content>
+        <mat-card-actions>
+        </mat-card-actions>
+        <mat-card-footer>
+        </mat-card-footer>
+      </mat-card>
+</div>

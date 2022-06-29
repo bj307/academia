@@ -1,0 +1,85 @@
+.body {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+mat-card {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+}
+
+h1 {
+    margin-top: 85px;
+    font-size: 2rem;
+    text-shadow: #A9A9A9 2px 3px 2px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.imagens {
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    border: 1px solid grey;
+    box-shadow: 2px 2px grey;
+}
+
+.img1, .img2 {
+    height: 400px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img1:hover, .img2:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#secMuzy {
+    margin-left: 85px;
+}
+
+.example-card {
+    background-color: #A9A9A9;
+    margin-top: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
+    width: auto;
+    margin-bottom: 80px;
+}
+
+mat-icon {
+    margin-top: 11px;
+}
+
+mat-icon:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+@media (max-width:1080px) {
+    .img1, .img2 {
+        height: 200px;
+    }
+    #secMuzy {
+        margin-left: 10px;
+    }
+    #titleC, #titleM {
+        font-size: 1.1rem;
+    }
+    .example-card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
