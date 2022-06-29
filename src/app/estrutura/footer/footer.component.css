@@ -1,7 +1,14 @@
 .footer {
     text-align: center;
-    background-color: brown;
+    background-color: #808080;
     width: 100%;
-    position: block;
+    position: fixed;
     bottom: 0;
+}
+
+@media (max-width:1080px) {
+    .footer {
+        position: unset;
+        position: block;
+    }
 }

@@ -5,6 +5,7 @@ html, body {
     width: 100%;
 }
 body { 
+    min-height: 100vh;
     margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
     background: rgb(15,84,98);
     background: radial-gradient(circle, rgba(15,84,98,1) 0%, rgba(15,137,162,0.53125) 0%, rgba(5,94,112,1) 100%);
@@ -16,7 +17,7 @@ body {
 }
 
 .mat-menu-content {
-    background-color: brown;
+    background-color: #808080;
 }
 
 ::-webkit-scrollbar              {
@@ -27,5 +28,4 @@ body {
     width: 1px;
     background-color: #ADD8E6;
 }
-
 

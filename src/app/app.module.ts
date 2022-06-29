@@ -18,6 +18,8 @@ import { AtletasComponent } from './telas/atletas/atletas.component';
 import { PersonalComponent } from './telas/personal/personal.component';
 import { ImcComponent } from './telas/imc/imc.component';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatInputModule } from '@angular/material/input';
+
 
 
 @NgModule({
@@ -41,7 +43,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatCardModule,
     MatTabsModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

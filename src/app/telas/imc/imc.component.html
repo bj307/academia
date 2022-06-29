@@ -1,3 +1,13 @@
 <div class="geral">
-    
+    <section>
+        <mat-form-field class="example-form-field" appearance="fill">
+            <mat-label>Altura</mat-label>
+            <input matInput type="number" id="altura">
+        </mat-form-field>
+        <mat-form-field class="example-form-field" appearance="fill">
+            <mat-label>Peso</mat-label>
+            <input matInput type="number" id="peso">
+        </mat-form-field>
+        <button mat-flat-button color="primary" (click)="calcIMC()">Calcular</button>
+    </section>
 </div>

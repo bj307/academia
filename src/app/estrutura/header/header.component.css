@@ -1,5 +1,5 @@
 .header {
-    background-color: brown;
+    background-color: #808080;
 }
 
 section {
@@ -22,6 +22,12 @@ section {
 
 .menuMobil {
     display: none;
+}
+
+button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 @media (max-width:1080px) {
